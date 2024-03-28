@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="name"><b>Student name: </b></h3>
+    <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Obtain marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td>
+            <td>100</td>
+            <td><input type="number" id="english" placeholder="Enter marks" /></td>
+          </tr>
+          <tr>
+            <td>Maths</td>
+            <td>100</td>
+            <td><input type="number" id="maths" placeholder="Enter marks"/></td>
+          </tr>
+          <tr>
+            <td>Urdu</td>
+            <td>100</td>
+            <td><input type="number" id="urdu" placeholder="Enter marks" /></td>
+          </tr>
+          <tr>
+            <td>Computer</td>
+            <td>100</td>
+            <td><input type="number" id="computer" placeholder="Enter marks" /></td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td>100</td>
+            <td><input type="number" id="physics" placeholder="Enter marks" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">Total Marks</td>
+            <td id="totalMarks"></td>
+          </tr>
+          <tr>
+            <td colspan="2">percentage</td>
+            <td id="percentage"></td>
+          </tr>
+          <tr>
+            <td colspan="2">grade</td>
+            <td id="Grade"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button onclick="calculateGrade()">Calculate Grade</button>
+
+    <script src="chapter6.js"></script>
+</body>
+</html>
