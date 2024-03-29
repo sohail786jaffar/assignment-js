@@ -1,5 +1,5 @@
 
-var correctPassword = prompt("enter your password"); // Replace with the correct password
+var correctPassword = prompt("enter your password");
 
 
 var userPassword = prompt('Please re-enter your password');
